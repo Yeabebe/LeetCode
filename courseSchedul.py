@@ -1,3 +1,5 @@
+from typing import List, defaultdict, deque    
+
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         
