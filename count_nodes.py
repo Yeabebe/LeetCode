@@ -1,3 +1,5 @@
+from typing import Optional, TreeNode
+
 class Solution:
     def countNodes(self, root: Optional[TreeNode]) -> int:
         def getHeight(node):
