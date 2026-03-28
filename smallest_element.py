@@ -1,4 +1,4 @@
-from typing import Optional, TreeNode    
+from typing import Optional, List, TreeNode
 
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
@@ -15,5 +15,6 @@ class Solution:
             if k == 0:
                 return curr.val
             curr = curr.right     
+
 
 
