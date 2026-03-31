@@ -1,3 +1,5 @@
+from typing import Optional, ListNode  
+
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
         # Step 1: Find middle
