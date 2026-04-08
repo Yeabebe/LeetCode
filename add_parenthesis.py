@@ -1,3 +1,6 @@
+from typing import List
+from functools import lru_cache
+
 class Solution:
     def diffWaysToCompute(self, expression: str) -> List[int]:
         
