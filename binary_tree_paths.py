@@ -1,3 +1,5 @@
+from typing import Optional, List
+
 class Solution:
     def binaryTreePaths(self, root: Optional[TreeNode]) -> List[str]:
         res = []
