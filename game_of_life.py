@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     def gameOfLife(self, board: List[List[int]]) -> None:
         m, n = len(board), len(board[0])
