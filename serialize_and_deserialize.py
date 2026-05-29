@@ -1,3 +1,5 @@
+from typing import TreeNode       
+
 class Codec:
 
     def serialize(self, root):
