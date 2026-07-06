@@ -1,4 +1,4 @@
-from collections import Counter
+from collections import Counter, List
 
 class Solution:
     def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
