@@ -1,3 +1,5 @@
+from typing import NestedInteger
+
 class Solution:
     def deserialize(self, s: str) -> NestedInteger:
         # Single integer
